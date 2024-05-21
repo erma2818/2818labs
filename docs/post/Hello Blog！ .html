@@ -15,7 +15,7 @@
 <meta property="og:description" content="# Hello Blog
 之前一直都想着写一些blog来记录自己的一些数字折腾的过程，断断续续搭建过一些博客服务，但最终都是以折腾博客本身为主，没有怎么真正产出过内容。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://erma2818.github.io/2818labs.github.io/post/Hello%20Blog%EF%BC%81%20.html">
+<meta property="og:url" content="https://erma2818.github.io/2818labs/post/Hello%20Blog%EF%BC%81%20.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
 <title>Hello Blog！ </title>
 
@@ -50,13 +50,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="header">
 <h1 class="postTitle">Hello Blog！ </h1>
 <div class="title-right">
-    <a href="https://erma2818.github.io/2818labs.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="https://erma2818.github.io/2818labs" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
     </a>
     
-    <a href="https://github.com/erma2818/2818labs.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/erma2818/2818labs/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -78,7 +78,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 </div>
-    <div id="footer">Copyright © <span id="year"></span><a href="https://erma2818.github.io/2818labs.github.io"> Blog Title </a>
+    <div id="footer">Copyright © <span id="year"></span><a href="https://erma2818.github.io/2818labs"> 2818Labs </a>
 <p>
 <span id="runday"></span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a>
 </p>
@@ -142,7 +142,7 @@ function openComments(){
 
     script=document.createElement("script");
     script.setAttribute("src","https://utteranc.es/client.js");
-    script.setAttribute("repo","erma2818/2818labs.github.io");
+    script.setAttribute("repo","erma2818/2818labs");
     script.setAttribute("issue-term","title");
     
     if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
